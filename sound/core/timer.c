@@ -562,6 +562,7 @@ static int snd_timer_stop_slave(struct snd_timer_instance *timeri, bool stop)
 	}
 	spin_unlock_irqrestore(&slave_active_lock, flags);
 	return 0;
+}
 /*
  * start the timer instance
  */
